@@ -1,0 +1,24 @@
+{
+  "name": "friendsfinder",
+  "version": "1.0.0",
+  "description": "find your friend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisrold1/FriendsFinder.git"
+  },
+  "author": "chrisrold senora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisrold1/FriendsFinder/issues"
+  },
+  "homepage": "https://github.com/chrisrold1/FriendsFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
