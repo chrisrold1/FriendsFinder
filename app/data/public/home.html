@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Paddy's Pub Social Network</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
-<body class="site">
-	<div class="container content">
-		<h1>Paddy's Pub Social Network</h1>
-		<p>Welcome to the exclusive new Friend Finder based in Philly. We only accept the best of the best, so losers need not apply! After our state-of-the-art screening process, you will be paired with your new best friend for life. Our algorithm will catch you if you are not up to par, and will find your perfect match. Romantic or platonic? You decide!</p>
-		
-		<div class="text-center">
-			<a href="../public/survey.html"><button class="btn btn-lg btn-success">Take Survey</button></a>
-		</div>
-	</div>
+<body>
+    <div class="container">
+        <div class="jumbotron text-left">
+            <h1 class = "display-1"> <i class="fa fa-facebook-square" aria-hidden="true">Friends Finder</i></h1>
+            <hr>
+            <h3>Answer A Few Basic Questions</h3>
+            <h3>Then Find the friend with the greatest compatibility!</h3>
 
-	<footer>
-		<div class="container">
-			<a href="/api/friends">Discover Friends in Philly API</a>
-			<span>|</span>
-			<a href="https://github.com/yoonslee/FriendFinder">GitHub Repo</a>
-		</div>
-	</footer>
+            <br>
 
-	<script
-	  src="https://code.jquery.com/jquery-3.2.1.min.js"
-	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-	  crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <div>
+                <a href="../public/survey.html"><button type="button" class="btn btn-lg btn-danger">
+                    <h4><i class="fa fa-file-text" aria-hidden="true"></i> Go to Survey</h4></button>
+                </a>
+                  </div>
+            
+                </div>
+
+                <footer class="footer">
+					<div class="container">
+					  <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+					</div>
+				  </footer>
+
+    </div>
+
+				
+
 </body>
 </html>

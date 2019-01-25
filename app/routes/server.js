@@ -13,6 +13,7 @@ var PORT = process.env.PORT || 8080;
 //sets up to handle data parsing
 app.use(express.urlencoded({ extended : true}));
 app.use(express.json());
+
  
 //Routes
 //This routes is like a map where you can navigate ex google.com/chrisrold ; chrisrold will be a path or routes
