@@ -1,18 +1,21 @@
 //Pull Depencies
+//npm package that we use to make our app more easy 
 const express = require('express');
 const path = require('path');
 
 //Configure Express application 
-//This will sets up basic properties for our express
+//This will sets up basic properties for our express / this will also tell node that we are creating a app using express
 var app = express();
 
-//Initial Port where to go on local host
+//Initial Port where to go on local host , this will be the server where the apps run by typing localhost8080
 var PORT = process.env.PORT || 8080;
 
 
 //sets up to handle data parsing
 app.use(express.urlencoded({ extended : true}));
 app.use(express.json());
+
+app.use(express.static("public"));
 
  
 //Routes
